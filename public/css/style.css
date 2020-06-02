@@ -1,0 +1,308 @@
+/* CSS changes and additonal properties for user interface elements  */
+
+/*Navbar styling-----------------------------------*/
+nav {
+    margin-bottom: 3px;
+    height:50px;
+}
+
+.navbar{
+  padding:0;
+  
+}
+
+ 
+.navbar-nav .nav-link{
+  padding-left:10px;
+}
+
+.nav-item {
+  padding: 0px;
+}
+
+
+.nav-item a{
+  padding: 0px;
+  height:55px;
+}
+
+.nav-item a:hover{
+  padding: 0px;
+}
+
+nav ul{
+  margin-left: 10px;
+}
+
+
+ul:not(.browser-default){
+margin:0px;
+}
+
+#nav-bar-toggler{
+
+}
+/*----------------------------------------------------*/
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    
+}
+
+main {
+    flex: 1 0 auto;
+      margin-top:2px;  
+}
+  
+
+#btnRightSpacing {
+    margin-right: 1em;
+}
+
+#skipID {
+  alignment-baseline: central;
+  width: 50%;
+}
+ 
+#delete-inline {
+    display: inline;
+}
+ 
+.btn-warning {
+    color: #fff;
+}
+
+.btn-warning {
+    color: #fff;
+}
+
+input[type="checkbox"] {
+    position:absolute;
+    clip: rect(0,0,0,0);
+    clip: rect(0 0 0 0);
+}
+
+#foo:checked,
+input[type="checkbox"] + label::before {
+    content: url('checkbox.png');
+}
+
+input[type="checkbox"]:checked + label::before {
+    content: url('checkbox-checked.png');
+}
+
+.prevnext {
+    width: 100px !important;
+}
+
+/* Special styling for WebKit/Blink */
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: -14px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; /* Add cool effects to your sliders! */
+}
+
+/* All the same stuff for Firefox */
+input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+/* All the same stuff for IE */
+input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #3071a9;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #367ebd;
+}
+
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #3071a9;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  border-width: 16px 0;
+  color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+  background: #2a6495;
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+  background: #3071a9;
+}
+
+input[type=range]::-ms-fill-upper {
+  background: #3071a9;
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+  background: #367ebd;
+}
+
+.btn-sample:active {
+  box-shadow: none;
+}
+
+.btn-success:active:focus {
+  color: #ffffff; 
+  background-color: #161617; 
+  border-color: #494F57;
+}
+
+/* new css table view*/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px ;
+    background-color: #f6f5f3;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr{
+  color:black;
+}
+
+label {
+  color: #000000;
+}
+
+#questionIns {
+  font-style: italic;
+  color: #000000;
+  line-height: 0.7;
+}
+
+
+
+/*footer part*/
+footer > div{ 
+
+}
+ footer #footerLinks a{
+  color: #7dce94 ;
+  text-decoration:none;
+  align-items: flex-end;
+  padding:10px;
+  float:right;
+ }
+
+/*DashBoard-buttons*/
+.dashboardBtn a{
+  background-color:#7dce94;
+}
+
+.dashboardBtn a:hover{
+  color:white;
+  background-color:#58825E;
+}
+
+.create a{
+  background-color: #7dce94;
+}
+
+/*Creating a new popup for creating a new survey*/
+  
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.create a:hover{
+  color:black;
+  background-color: #7dce94;
+}
+
+/*Buttons for creating survey page*/
+#delete{background-color:red;color:white; width:90px}
+#delete:hover{background-color:RED;color:white}
+#save{background-color:#7dce94;color:white;width:90px}
+#edit{background-color:#7dce94;color:white;width:90px}
+
+.take-survey{
+  background-color:white ;
+  color:#3d3d3f;
+  border-top:solid #50C878 1px ;
+  
+  border-bottom:solid #50C878 1px;
+  
+}
+
+
