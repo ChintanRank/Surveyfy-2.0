@@ -1,7 +1,7 @@
 Surveyfy - An adaptive machine learning based Survey Web App which adapts based on responses (i.e. An user who takes a given survey).
 ========
 
-Surveyfy will solve your problem for Automatic Survey Question Curation that adaps based on user responses. 
+Surveyfy will solve your problem for Automatic Survey Question Curation that adapts based on user responses. 
 Also, surveyfy provides an easy way for creating a survey and it's questions with added functionalities that can be 
 used for machine learning purpose. The application can create and deploy online surveys. 
 The application is developed for the Center of Survey Research, University of Massachusetts, Boston.
@@ -41,9 +41,9 @@ Features
 
 Technology Stack
 ----------------
-Frontend - HTML 5, CSS, Bootstrap, jQuery
+Frontend - HTML 5, CSS, BootStrap, Angular, EJS, JQuery, Ajax.
 Runtime – Node.js
-Frontend Frameworks – Express.js (express-session and body-parser) 
+Frameworks – Express.js (express-session and body-parser) 
 Security feature - passport, passport-local-mongoose
 DBMS – MongoDB
 Version control system – GIT
@@ -113,7 +113,7 @@ How to get support
 Coding Standard:
 ----------------
 
-Google, ESLint coding standard has been used. Semicolon (;) in this entire project is not required at the end of each line hence semicolon not used. 
+Google, ESLint coding standard has been used.
 
 User Support
 ------------
